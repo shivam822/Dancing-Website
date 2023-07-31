@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Source+Code+Pro:ital,wght@1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#navbar {
+/* position: fixed; */
+    padding: 20px 5px;
+    background-color: rgb(88, 138, 88);
+
+
+}
+
+#navbar ul {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+#navbar li {
+    list-style: none;
+    font-family: 'Kalam', cursive;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+
+#navbar li:hover {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+#navbar ul a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 3vh;
+    padding: 20px 1.5vh;
+    
+    color: black;
+
+}
+#navbar ul a:hover {
+    color: white;
+
+}
+
+#introSection {
+padding-top: 20px;
+    font-family: 'Kalam', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(253, 255, 253);
+    background-color: cadetblue;
+    height: 400px;
+    background: center / cover no-repeat url("/static/bg.jpg");
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+#introSection div.top{
+
+    background:transparent;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    z-index: 2;
+} 
+    
+#introSection div.small{
+padding: 10px;
+    font-size: 30px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#OurMission {
+    padding-top: 20px;
+    background-color: lightpink;
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+    height: 400px;
+    /* background-color: white; */
+    color: black;
+    font-family: 'Source Code Pro', monospace;
+   
+}
+#OurMission h1{
+     font-size: 40px;
+     margin: 20px;
+}
+
+.cardContainer{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    padding: 10px;
+    width: 400px;
+    align-items: center;
+    margin: 10px;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+.card:hover{
+    background-color: rgb(88, 138, 88);
+    /* font-size: 18px; */
+}
+.card-box{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+
+.card-img img{
+    height: inherit; 
+}
+
+#Sponcers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(88, 138, 88);
+}
+#Sponcers h2{
+    font-size: 40px;
+     margin: 20px;
+}
+
+#sponsors img{
+    height: 120px;
+    max-width: 100px;
+    margin: auto
+}
+
+.spImage{
+    padding: 10px;
+    height: 80px;
+    margin: 20px;
+}
+.spImage:hover{
+    background-color: lightpink; 
+    border-radius: 10px;
+    
+}
+#footer {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    height: 70px;
+    color: white;
+}

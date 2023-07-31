@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 2rem;
+}
+
+#serviceContainer {
+
+    display: flex;
+    border: 2px solid red;
+    height: 80vh;
+    background-color: rgb(88, 138, 88);
+
+}
+
+.serviceContainerBox {
+    background: center / cover no-repeat url("/static/dancebg.jpg");
+    border: 2px solid black;
+    width: 60vh;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: lightpink;
+    text-align: center;
+}
+
+.serviceContainerBoxButtons {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 60vh;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: lightpink;
+    text-align: center;
+}
+
+.btn {
+    margin: 2px;
+    padding: 0.3rem;
+    border-radius: 10px;
+    border: 2px solid lightpink;
+    background-color: rgb(88, 138, 88);
+    font-size: 20px;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: lightpink;
+    border: 2px solid rgb(88, 138, 88);
+}
+.btn:focus-visible{
+    background-color: lightpink;
+}

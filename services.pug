@@ -1,0 +1,40 @@
+extends base.pug
+
+block scripts 
+    script(src="../style/index.js") 
+
+block style 
+    style
+      include ../static/style.css 
+      include ../static/styleServices.css 
+
+block body
+    h1  Our Services 
+    
+    div#serviceContainer
+        div.serviceContainerBox
+            h2 Classical Dance 
+        div.serviceContainerBox
+            h2 Service 2
+        div.serviceContainerBoxButtons
+                  h2 Dance List
+                  button(class="btn") 
+                    | Ballet
+                  button(class="btn") 
+                    | Ballroom
+                  button(class="btn") 
+                    | Contemporary
+                  button(class="btn") 
+                    | Hip Hop
+                  button(class="btn") 
+                    | Jazz
+                  button(class="btn") 
+                    | Tap Dance
+                  button(class="btn") 
+                    | Folk Dance
+                  button(class="btn") 
+                    | Irish Dance
+                  button(class="btn") 
+                    | Modern Dance
+                  button(class="btn") 
+                    | Swing Dance

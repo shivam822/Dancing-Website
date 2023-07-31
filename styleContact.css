@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+   
+}
+
+    
+#myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myInput{
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid green;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: rgb(171, 207, 171);
+}
+.myInput:hover{
+background-color: rgb(22, 95, 55);
+color: white;
+}
+.btn{
+    padding: 10px 0px;
+    margin:  10px;
+    width: 10%;
+    border: 2px solid green;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+   
+}
+.btn:hover{
+    background-color: rgb(88, 138, 88);
+    color: black;
+}
